@@ -5,14 +5,21 @@
   <artifactId>autumnin</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <name>autumnin-demo</name>
+  <url>www.autumnin.com</url>
   <modules>
     <module>service-demo</module>
     <module>request-demo</module>
     <module>service-demo2</module>
     <module>request-demo2</module>
+    <module>nacos-provider-demo</module>
+    <module>nacos-consumer-demo</module>
+    <module>load-balance-demo</module>
+    <module>openfeign-demo</module>
+    <module>gateway-demo</module>
+    <module>good-service</module>
   </modules>
-  <name>autumnin-demo</name>
-  <url>www.autumnin.com</url>
+
 
   <properties>
     <spring.boot.version>2.6.3</spring.boot.version>
